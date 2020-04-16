@@ -1,0 +1,10 @@
+groundnet/aptdat2sqlite.py
+groundnet/legacy-groundnets-icao.lst
+groundnet/sqlite2xml.py
+data/SRTM-3
+work
+work-corine
+work-final
+work-osm
+output
+download
