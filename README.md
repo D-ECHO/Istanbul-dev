@@ -12,7 +12,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-This repository includes the scripts and data that was used for generating the "Istanbul Custom Scenery". data/SRTM-3 and the work*/ folders are not included for file size reasons, but they can be generated using the scripts given here.
+This repository includes the scripts and data that was used for generating the "Turkey Custom Scenery". data/SRTM-3 and the work*/ folders are not included for file size reasons, but they can be generated using the scripts given here.
 
 Following sources have been used:
 
@@ -24,4 +24,4 @@ Following sources have been used:
 
 Thanks to _laserman_ for scripts to process airport data files into groundnets (https://github.com/mherweg/d-laser-fgtools)!
 
-To get the finished custom scenery, please see https://github.com/D-ECHO/Istanbul
+To get the finished custom scenery, please see https://github.com/D-ECHO/Turkey-CustomScenery

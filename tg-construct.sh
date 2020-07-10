@@ -1,6 +1,7 @@
 case $1 in
-	1) geo='--min-lon=28.5 --max-lon=29.0 --min-lat=40.75 --max-lat=41.5';; # Istanbul
-	2) geo='--min-lon=30.0 --max-lon=31.0 --min-lat=36.75 --max-lat=37.25';; # Antalya
+	1) geo='--min-lon=28.5 --max-lon=29.0 --min-lat=40.75 --max-lat=41.5';;		# Istanbul
+	2) geo='--min-lon=30.0 --max-lon=31.0 --min-lat=36.75 --max-lat=37.25';;	# Antalya
+	3) geo='--min-lon=26.75 --max-lon=27.5 --min-lat=38.0 --max-lat=38.75';;	# Izmir
 esac
 echo $1
 echo $geo
