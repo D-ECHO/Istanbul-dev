@@ -5,12 +5,12 @@ build_airport() {
 		*)	slope=0.025;
 			perimeter=5.0;;
 	esac
-	genapts850 --threads --input=data/airports/$1.dat --work=./work-final --dem-path=SRTM-3 --max-slope=$slope --perimeter=$perimeter
+	genapts850 --threads --input=data/airports/$1.dat --work=./work --dem-path=SRTM-3 --max-slope=$slope --perimeter=$perimeter
 }
 if [ "$2" != "soft" ]
 then
 	echo "Hard rebuilt: Removing old work files";
-	rm -r work-final/AirportArea work-final/AirportObj;
+	rm -r work/AirportArea work/AirportObj;
 fi
 if [ -z "$1" ]
 then

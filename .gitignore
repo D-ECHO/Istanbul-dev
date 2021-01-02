@@ -1,6 +1,8 @@
 groundnet/aptdat2sqlite.py
 groundnet/legacy-groundnets-icao.lst
 groundnet/sqlite2xml.py
+groundnet/apt.dat
+groundnet/groundnets.db
 groundnet/Airports
 data/SRTM-3
 work
