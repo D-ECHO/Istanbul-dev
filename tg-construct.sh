@@ -3,6 +3,8 @@ case $1 in
 	2) geo='--min-lon=30.0 --max-lon=31.0 --min-lat=36.75 --max-lat=37.25';;	# Antalya
 	3) geo='--min-lon=26.75 --max-lon=27.5 --min-lat=38.0 --max-lat=38.75';;	# Izmir
 	4) geo='--min-lon=35.0 --max-lon=35.5 --min-lat=36.75 --max-lat=37.25';;	# Adana
+	5) geo='--min-lon=27.5 --max-lon=28.0 --min-lat=37.125 --max-lat=37.375';;	# Milas/Bodrum
+	6) geo='--min-lon=28.0 --max-lon=29.5 --min-lat=36.5 --max-lat=37.0';;		# Dalaman
 esac
 echo $1
 echo $geo
