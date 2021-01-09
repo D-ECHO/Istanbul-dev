@@ -15,10 +15,15 @@ fi
 if [ -z "$1" ]
 then
 	for i in data/airports/*.dat
-	do 
+	do
 		build_airport `echo $i| cut -c 15-18`;
 	done
-	build_airport XTF0002;
+elif [ "$1" = "Ankara" ]
+then
+	for i in LTAB LTAC LTAD LTAE
+	do
+		build_airport $i;
+	done
 else
 	build_airport $1;
 fi
