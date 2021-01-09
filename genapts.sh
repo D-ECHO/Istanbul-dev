@@ -24,6 +24,12 @@ then
 	do
 		build_airport $i;
 	done
+elif [ "$1" = "Izmir" ]
+then
+	for i in LTBJ LTBK LTFA LTBL
+	do
+		build_airport $i;
+	done
 else
 	build_airport $1;
 fi
